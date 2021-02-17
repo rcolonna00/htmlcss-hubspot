@@ -17,7 +17,7 @@
     clear: both;
 }
 
-/*AGGIUNGEREPADDING GIUSTO*/
+/*AGGIUNGERE PADDING GIUSTO*/
 .orange-but{
     color: white;
     border: 1px solid orangered;
@@ -26,28 +26,34 @@
     border-radius: 5px;
 }
 
-/*hEADER*/
-
-/*DA LARGHEZZA AI CONTENITORI
-PIU GRANDI*/
-.margin{ 
-    width: 80%;
+.contenitore{
+    width: 100%;
     margin:auto;
+}
 
+.img-fit{
+    height: 100%;
+    object-fit: contain;
+}
+
+/*hEADER*/
+.contenitore-nav{ 
+    width: 100%;
+    margin:auto;
+    border-bottom: 2px solid black;
+    background-color: rgb(198, 233, 255);
 }
 
 /*NAV*/
-nav{
-    width: 100%;
-    background-color: lightskyblue;
+.margin{
+    width: 80%;
+    margin:auto;
     padding: 15px 0;
-    border-bottom: 2px solid black;
 }
 
 .lingua{
     width: 15%;
     border-right: 1px solid black;
-    text-align: center;
 }
 
 .contatti{
@@ -57,7 +63,7 @@ nav{
 
 .login{
     width: 35%;
-    text-align: center;
+    text-align: right;
 }
 
 .login-but{
@@ -75,3 +81,22 @@ nav{
 /*FINE NAV*/
 
 
+/*LOGO MENU*/
+.logo{
+    width:10%;
+}
+
+.menu{
+    width: 90%;
+    text-align: right;
+}
+
+div.menu *{
+    display: inline-block;
+}
+
+.freccia-giu{
+    padding: 0 15px;
+}
+
+/*FINE LOGO MENU*/
