@@ -5,8 +5,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*COMUNI*/
 
+/*COMUNI*/
 .col{
     float: left;
 }
@@ -15,6 +15,17 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.contenitore{
+    width: 100%;
+    margin:auto;
+}
+
+.margin{
+    width: 80%;
+    margin:auto;
+    padding: 15px 0;
 }
 
 /*AGGIUNGERE PADDING GIUSTO*/
@@ -26,14 +37,17 @@
     border-radius: 5px;
 }
 
-.contenitore{
-    width: 100%;
-    margin:auto;
-}
-
 .img-fit{
     height: 100%;
     object-fit: contain;
+}
+
+img{
+    width: 100%;
+}
+
+.medio{
+    font-size:small;
 }
 
 /*hEADER*/
@@ -44,13 +58,8 @@
     background-color: rgb(198, 233, 255);
 }
 
-/*NAV*/
-.margin{
-    width: 80%;
-    margin:auto;
-    padding: 15px 0;
-}
 
+/*NAV*/
 .lingua{
     width: 15%;
     border-right: 1px solid black;
@@ -98,5 +107,33 @@ div.menu *{
 .freccia-giu{
     padding: 0 15px;
 }
-
 /*FINE LOGO MENU*/
+
+
+/*BARRA MOTTO*/
+.contenitore-background{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.jumbotron{
+    background-image: url(../img/jumbotron.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.finestra{
+    position: absolute;
+    font-size: x-large;
+
+    /*TEST*/
+    background-color: red;
+    width: 40%;
+    height: 150px;
+}
+
+
+
+/*FINE BARRA MOTTO*/
