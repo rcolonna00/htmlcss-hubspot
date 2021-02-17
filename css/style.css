@@ -7,6 +7,8 @@
 
 
 /*COMUNI*/
+
+/*TABELLA*/
 .col{
     float: left;
 }
@@ -17,6 +19,7 @@
     clear: both;
 }
 
+/*MARGINI*/
 .contenitore{
     width: 100%;
     margin:auto;
@@ -28,15 +31,18 @@
     padding: 15px 0;
 }
 
-/*AGGIUNGERE PADDING GIUSTO*/
+/*BOTTONE ARANCIONE*/
 .orange-but{
     color: white;
     border: 1px solid orangered;
-    scroll-padding-block-start: orangered;
     background-color: orangered;
     border-radius: 5px;
+    display: inline-block;
+    padding:17px;
+    margin: 22px 0;
 }
 
+/*IMMAGINI*/
 .img-fit{
     height: 100%;
     object-fit: contain;
@@ -46,9 +52,16 @@ img{
     width: 100%;
 }
 
-.medio{
+/*FONT-TEXT*/
+.text-med{
     font-size:small;
 }
+
+.text-xs{
+    font-size: x-small;
+}
+/*FINE COMUNI*/
+
 
 /*hEADER*/
 .contenitore-nav{ 
@@ -57,7 +70,6 @@ img{
     border-bottom: 2px solid black;
     background-color: rgb(198, 233, 255);
 }
-
 
 /*NAV*/
 .lingua{
@@ -126,14 +138,17 @@ div.menu *{
 
 .finestra{
     position: absolute;
-    font-size: x-large;
-
-    /*TEST*/
-    background-color: red;
     width: 40%;
-    height: 150px;
+    margin-top: 100px;
 }
 
-
-
+h1{
+    font-size: 43px;
+    margin-bottom: 3%;
+}
 /*FINE BARRA MOTTO*/
+/*FINE HEADER*/
+
+
+/*MAIN*/
+/*FINE MAIN*/
