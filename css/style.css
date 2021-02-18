@@ -31,6 +31,14 @@
     padding: 15px 0;
 }
 
+h2{
+    margin-bottom: 15px;
+}
+
+.inline{
+    display: inline-block;
+}
+
 /*BOTTONE ARANCIONE*/
 .orange-but{
     color: white;
@@ -52,13 +60,36 @@ img{
     width: 100%;
 }
 
+/*LISTA*/
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.fa-check-circle{
+    color: orangered;
+    margin: 0 10px;
+}
+
 /*FONT-TEXT*/
 .text-med{
     font-size:small;
+    line-height: 22px;
 }
 
 .text-xs{
     font-size: x-small;
+}
+
+h3{
+    margin-bottom: 3%;
+    font-size: 23px;
+}
+
+h5{
+    margin: 3% 0;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 /*FINE COMUNI*/
 
@@ -151,4 +182,100 @@ h1{
 
 
 /*MAIN*/
+/*SECT-SERVICE*/
+/*DESCRIZIONE*/
+section.sect-service{
+    background-color: rgb(198, 233, 255);
+}
+
+.descrizione{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.img-cubo{
+    width: 35%;
+    margin: auto;
+}
+/*FINE DESCRIZIONE*/
+
+
+/*ORIZZONTALE*/
+.orizontal-serv{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 5%;
+
+
+    /*TEST*/
+    /*height: 100px;
+    background-color: red;*/
+}
+
+.orizontal-left{
+    width: 30%;
+    text-align: center;
+    padding: 25px;
+
+    /*TEST*/
+    /*height: 300px;*/
+}
+
+div.orizontal-left img.img-fit{
+    width: 50%;
+}
+
+.orizontal-right{
+    width: 70%;
+    padding: 5% 10% 5% 0;
+}
+
+.sx{
+    width: 40%;
+}
+
+.dx{
+    width: 55%;
+    height: 10px;
+    border-top: 1px solid black;
+}
+/*FINE ORIZZONTALE*/
+
+/*VERTICALE*/
+.col-left,
+.col-center,
+.col-right{
+    width: 30%;
+    text-align: center;
+    padding: 3%;
+
+
+    /*TEST*/
+    /*height: 150px;*/
+    background-color: red;
+}
+
+.img-top {
+    width: 50%;
+    margin:auto;
+    padding: 25px;
+}
+
+hr{
+    margin: 25px 0 15px 0;
+}
+
+div.block ul li{
+    display: block;
+    margin-left: 10px;
+    
+}
+
+
+/*FINE VERTICALE*/
+
+
+/*FINE SECT-SERVICE*/
 /*FINE MAIN*/
