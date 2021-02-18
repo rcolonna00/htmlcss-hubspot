@@ -335,6 +335,7 @@ section.sec-sponsor .margin{
 }
 
 /*PRIMA RIGA*/ 
+/*PARTE SINISTRA ALTA*/
 .dati{
     width: 40%;
     text-align: center;
@@ -348,14 +349,29 @@ section.sec-sponsor .margin{
 div.dati h3{
     padding: 5% 0;
 }
+/*FINE PARTE SINISTRA ALTA*/
 
+/*PSRTE ALTA DESTRA*/
 .sponsor{
     width: 60%;
-
-    /*TEST*/
-    height: 50px;
-    background-color: blue;
+    padding-left: 5%;
+    line-height: 35px;
+    height: 35px;
 }
+
+.col-5,
+.col-6,
+.col-7,
+.col-8{
+    width: 16%;
+    height: 50%;
+    margin: 0 2%;
+}
+
+.col-5{
+    margin-left: 13%;
+}
+/*FINE PARTE DESTRA ALTA*/
 /*FINE PRIMA RIGA*/  
 
 /*FINE SEZIONE SPONSOR*/
