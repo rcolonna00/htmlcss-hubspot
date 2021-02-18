@@ -35,6 +35,10 @@
     display: inline-block;
 }
 
+.padding-su-giu{
+    padding: 10% 0;
+}
+
 /*BOTTONE ARANCIONE*/
 .orange-but{
     color: white;
@@ -82,7 +86,6 @@ li{
 
 .text-xl{
     font-size: 30px;
-    padding: 10% 0;
 }
 
 h2{
@@ -288,7 +291,6 @@ hr{
 section.sec-table{
     background-color: #00b9a9;
     padding: 2% 0 5% 0;
-    margin-bottom: 0;
 }
 
 section.sec-table .margin{
@@ -319,7 +321,42 @@ section.sec-table .margin{
 #img-xs{
     padding-bottom: 0px;
 }
-
 /*FINE SEZIONE TABELLA*/
 
+/*SEZIONE SPONSOR*/
+section.sec-sponsor .margin{
+    background-image: url(../img/woman.webp);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: 100% 100%;
+
+    /*TEST*/
+    height: 600px;
+}
+
+/*PRIMA RIGA*/ 
+.dati{
+    width: 40%;
+    text-align: center;
+    padding: 0 10%;
+
+    /*TEST*/
+ height: 50px;
+ background-color: red;
+}
+
+div.dati h3{
+    padding: 5% 0;
+}
+
+.sponsor{
+    width: 60%;
+
+    /*TEST*/
+    height: 50px;
+    background-color: blue;
+}
+/*FINE PRIMA RIGA*/  
+
+/*FINE SEZIONE SPONSOR*/
 /*FINE MAIN*/
