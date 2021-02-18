@@ -31,10 +31,6 @@
     padding: 15px 0;
 }
 
-h2{
-    margin-bottom: 15px;
-}
-
 .inline{
     display: inline-block;
 }
@@ -82,6 +78,15 @@ li{
 
 .text-xs{
     font-size: x-small;
+}
+
+.text-xl{
+    font-size: 30px;
+}
+
+h2{
+    margin-bottom: 15px;
+    font-size: 27px;
 }
 
 h3{
@@ -188,6 +193,7 @@ h1{
 /*DESCRIZIONE*/
 section.sect-service{
     background-color: rgb(198, 233, 255);
+    padding-bottom: 2%;
 }
 
 .descrizione{
@@ -209,20 +215,12 @@ section.sect-service{
     background-color: white;
     border-radius: 5px;
     margin-bottom: 5%;
-
-
-    /*TEST*/
-    /*height: 100px;
-    background-color: red;*/
 }
 
 .orizontal-left{
     width: 30%;
     text-align: center;
     padding: 25px;
-
-    /*TEST*/
-    /*height: 300px;*/
 }
 
 div.orizontal-left img.img-fit{
@@ -283,7 +281,55 @@ hr{
     margin: 25px 0 15px 0;
 }
 /*FINE VERTICALE*/
-
-
 /*FINE SECT-SERVICE*/
+
+/*SEZIONE TABELLA*/
+
+/*AGGIUSTARE ALLA FINE IL PADDING 
+GIUSTO*/
+section.sec-table{
+    height: 500px;
+    background-color: #00b9a9;
+    padding: 2% 0 4% 0;
+}
+
+/*mettere qui il margin-bottom*/
+section.sec-table .margin{
+    text-align: center;
+    color: white;
+    padding: 0 15%
+
+    
+    /*TEST*/
+    height: 300px;
+    background-color: red;
+}
+
+.row-1{
+    border-bottom: 1px solid white;
+}
+
+.margin-right{
+    border-right: 1px solid white;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4{
+    width: 25%;
+    padding-bottom:2%;
+
+
+
+    /*TEST*/
+    /*height: 200px;*/
+    /*background-color: tomato;*/
+}
+
+#img-xs{
+    padding-bottom: 0px;
+}
+
+/*FINE SEZIONE TABELLA*/
 /*FINE MAIN*/
