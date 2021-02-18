@@ -82,6 +82,7 @@ li{
 
 .text-xl{
     font-size: 30px;
+    padding: 10% 0;
 }
 
 h2{
@@ -260,7 +261,7 @@ div.vertical-serv .col-center{
 .img-top {
     width: 50%;
     margin:auto;
-    padding: 25px;
+    padding-top: 25px;
 }
 
 div.col-left div.top .img-top{
@@ -284,25 +285,19 @@ hr{
 /*FINE SECT-SERVICE*/
 
 /*SEZIONE TABELLA*/
-
-/*AGGIUSTARE ALLA FINE IL PADDING 
-GIUSTO*/
 section.sec-table{
-    height: 500px;
     background-color: #00b9a9;
-    padding: 2% 0 4% 0;
+    padding: 2% 0 5% 0;
+    margin-bottom: 0;
 }
 
-/*mettere qui il margin-bottom*/
 section.sec-table .margin{
     text-align: center;
     color: white;
-    padding: 0 15%
+}
 
-    
-    /*TEST*/
-    height: 300px;
-    background-color: red;
+.row{
+    margin-bottom: 3%;
 }
 
 .row-1{
@@ -319,12 +314,6 @@ section.sec-table .margin{
 .col-4{
     width: 25%;
     padding-bottom:2%;
-
-
-
-    /*TEST*/
-    /*height: 200px;*/
-    /*background-color: tomato;*/
 }
 
 #img-xs{
@@ -332,4 +321,5 @@ section.sec-table .margin{
 }
 
 /*FINE SEZIONE TABELLA*/
+
 /*FINE MAIN*/
