@@ -62,9 +62,12 @@ img{
 
 /*LISTA*/
 li{
+    display: block;
+    margin-left: 10px;
+    text-align: left;
     list-style-type: none;
-    display: inline-block;
 }
+
 
 .fa-check-circle{
     color: orangered;
@@ -267,12 +270,6 @@ hr{
     margin: 25px 0 15px 0;
 }
 
-div.block ul li{
-    display: block;
-    margin-left: 10px;
-    text-align: left;
-    
-}
 
 
 /*FINE VERTICALE*/
