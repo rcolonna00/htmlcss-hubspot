@@ -380,7 +380,7 @@ div.dati h3{
 .ultima-finestra{
     width: 40%;
     position:absolute;
-    margin-top: 18.5%;
+    margin-top: 17%;
 }
 
 /*FINE FINESTRA BASSA*/
@@ -389,13 +389,9 @@ div.dati h3{
 /*FINE MAIN*/
 
 /*FOOTER*/
-footer .margin{
-    padding-top: 2%;
-    font-weight: 600;
-
-    /*TEST*/
-    height: 300px;
-    background-color: red;
+footer{
+    background-color: #2d3e50;
+    color: white;
 }
 
 .col-link-1,
@@ -404,15 +400,36 @@ footer .margin{
 .col-link-4{
     width: 23%;
     margin-left: 2%;
+}
 
-
-    /*TEST*/
-    height: 100px;
-    background-color: blue;
+footer strong{
+    font-weight: 800;
+    line-height: 45px;
 }
 
 footer li{
-    line-height: 30px;
+    line-height: 35px;
+}
 
+footer .login-but{
+    color: #2d3e50;
+    background-color: white;
+    border: white;
+    margin-top: 2%;
+}
+
+footer i{
+    margin: 8% 3%;
+    font-size: 20px;
+}
+
+.margin-lingue{
+    margin: 5% 2% 3% 2%;
+}
+
+.lingue{
+    text-align: center;
+    padding-bottom: 2%;
+    border-bottom: 1px solid white;
 }
 /*FINE FOOTER*/
