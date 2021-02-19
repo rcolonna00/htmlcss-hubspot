@@ -389,6 +389,7 @@ div.dati h3{
 /*FINE MAIN*/
 
 /*FOOTER*/
+/*COLONNE LINK*/
 footer{
     background-color: #2d3e50;
     color: white;
@@ -422,9 +423,16 @@ footer i{
     margin: 8% 3%;
     font-size: 20px;
 }
+/*FINE COLONNE LINK*/
 
+/*LINGUE*/
 .margin-lingue{
-    margin: 5% 2% 3% 2%;
+    margin: 5% 10% 2% 10%;
+}
+
+.lingue li{
+    display: inline-block;
+    margin-left: 2%;
 }
 
 .lingue{
@@ -432,4 +440,27 @@ footer i{
     padding-bottom: 2%;
     border-bottom: 1px solid white;
 }
+/*FINE LINGUE*/
+
+/*COPYRIGHT*/
+footer .img-fit{
+    height: 20px;
+    margin: 0;
+    width: auto;
+}
+
+.col-9,
+.col-10{
+    width: 50%;
+}
+
+.col-10{
+    text-align: right;
+}
+
+div.col-10 div{
+    display: inline-block;
+    padding-left: 15px;
+}
+/*FINE COPYRIGHT*/
 /*FINE FOOTER*/
