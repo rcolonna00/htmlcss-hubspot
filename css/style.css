@@ -209,6 +209,7 @@ section.sect-service{
     width: 50%;
     margin: auto;
     text-align: center;
+    padding: 3% 0;
 }
 
 .img-cubo{
@@ -230,6 +231,7 @@ section.sect-service{
     width: 30%;
     text-align: center;
     padding: 25px;
+    margin-top: 4%;
 }
 
 div.orizontal-left img.img-fit{
