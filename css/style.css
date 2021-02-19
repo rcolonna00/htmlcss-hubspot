@@ -140,6 +140,7 @@ h5{
 
 .orange-small-but{
     padding: 5px 10px;
+    margin: 0;
 }
 /*FINE NAV*/
 
@@ -195,6 +196,10 @@ h1{
 /*MAIN*/
 /*SECT-SERVICE*/
 /*DESCRIZIONE*/
+main{
+    margin-bottom: 3%;
+}
+
 section.sect-service{
     background-color: rgb(198, 233, 255);
     padding-bottom: 2%;
@@ -264,7 +269,6 @@ div.vertical-serv .col-center{
 .img-top {
     width: 50%;
     margin:auto;
-    padding-top: 25px;
 }
 
 div.col-left div.top .img-top{
@@ -320,6 +324,7 @@ section.sec-table .margin{
 
 #img-xs{
     padding-bottom: 0px;
+    padding-top: 25px;
 }
 /*FINE SEZIONE TABELLA*/
 
@@ -329,21 +334,17 @@ section.sec-sponsor .margin{
     background-repeat: no-repeat;
     background-size: 250px;
     background-position: 100% 100%;
-
-    /*TEST*/
-    height: 600px;
+    height: 550px;
+    margin-top: 3%;
 }
 
-/*PRIMA RIGA*/ 
+/*PARTE ALTA*/ 
 /*PARTE SINISTRA ALTA*/
 .dati{
     width: 40%;
     text-align: center;
     padding: 0 10%;
-
-    /*TEST*/
- height: 50px;
- background-color: red;
+    height: 50px;
 }
 
 div.dati h3{
@@ -351,7 +352,7 @@ div.dati h3{
 }
 /*FINE PARTE SINISTRA ALTA*/
 
-/*PSRTE ALTA DESTRA*/
+/*PARTE ALTA DESTRA*/
 .sponsor{
     width: 60%;
     padding-left: 5%;
@@ -372,7 +373,46 @@ div.dati h3{
     margin-left: 13%;
 }
 /*FINE PARTE DESTRA ALTA*/
-/*FINE PRIMA RIGA*/  
+/*FINE PARTE ALTA*/
+
+
+/*FINESTRA BASSA*/
+.ultima-finestra{
+    width: 40%;
+    position:absolute;
+    margin-top: 18.5%;
+}
+
+/*FINE FINESTRA BASSA*/
 
 /*FINE SEZIONE SPONSOR*/
 /*FINE MAIN*/
+
+/*FOOTER*/
+footer .margin{
+    padding-top: 2%;
+    font-weight: 600;
+
+    /*TEST*/
+    height: 300px;
+    background-color: red;
+}
+
+.col-link-1,
+.col-link-2,
+.col-link-3,
+.col-link-4{
+    width: 23%;
+    margin-left: 2%;
+
+
+    /*TEST*/
+    height: 100px;
+    background-color: blue;
+}
+
+footer li{
+    line-height: 30px;
+
+}
+/*FINE FOOTER*/
