@@ -441,16 +441,16 @@ footer .img-fit{
     width: auto;
 }
 
-.col-9,
-.col-10{
+.col-footer-left,
+.col-footer-right{
     width: 50%;
 }
 
-.col-10{
+.col-footer-right{
     text-align: right;
 }
 
-div.col-10 div{
+div.col-footer-right div{
     display: inline-block;
     padding-left: 15px;
 }
